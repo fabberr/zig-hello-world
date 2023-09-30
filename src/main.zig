@@ -19,8 +19,8 @@ fn printAddressOfWhileLoop(str: []const u8) void {
 }
 
 pub fn main() void {
-    const subject = "Ziggers";
-    const character_array_literal = [_]u8{ 'I', 'W', 'T', 'C', 'I', 'T', 'S', ' ', '<', '3' };
+    const subject = "Zig";
+    const character_array_literal = [_]u8{ 'I', 'W', 'T', 'C', 'I', 'T', 'S' };
 
     std.debug.print("Hello, {s}! {s}\n", .{ subject, character_array_literal });
 
